@@ -28,3 +28,4 @@ Os testes estão organizados por entidade da API:
   - Requisições sem token de autenticação
   - Tentativas de criar produtos duplicados
 - Os produtos criados durante os testes são automaticamente deletados ao final da execução, isso foi configurado para facilitar os testes contínuos durante o desenvolvimento.
+- Utilizado o GitHub Actions para automatizar o processo de integração contínua (CI) e execução de testes automatizados. A configuração do workflow permite que os testes sejam executados automaticamente em cada push ou pull request na branch `development`.
